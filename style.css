@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Lato" ,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-colour: #F7EBE8;
+    --dark-colour: #666A86;
+    --light-colour: #fffaff;
+    --black-colour: #000000;
+    --green-text-colour: #B5EF8A; 
+}
+
+
+/*Utilities*/
+/*Backgrounds*/
+.main-background {
+    background-color: var(--primary-colour);
+    color: #000000;
+}
+.alternate-main-background {
+    background-color: var(--light-colour);
+    color: var(--black-colour);
+}
+.darker-background {
+    background-color: var(--dark-colour);
+    color: var(--primary-colour);
+}
+.black-background {
+    background-color: var(--black-colour);
+    color: var(--green-text-colour);
+}
+
+/*Text*/
+/*Mobile font size*/
+@media (max-width: 480px) {
+    .text-small {
+        font-size: 0.75rem;
+        line-height: 1.4;
+        font-weight: normal;
+       
+    }
+    .text-regular {
+        font-size: 1rem;
+        line-height: 1.4;
+        font-weight: normal;
+        
+    }
+    .text-large {
+        font-size: 1.25rem;
+        line-height: 1.4;
+        font-weight: normal;
+       
+    }
+    .text-x-large {
+        font-size: 1.75rem;
+        line-height: 1.4;
+        font-weight: 600;
+        
+    }
+    .text-xx-large {
+        font-size: 2rem;
+        line-height: 1.2;
+        font-weight: 600;
+       
+    }
+}
+
+/*Buttons*/
+
+
+/*Containers*/
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/*Header*/
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 15px;
+}
+header .container a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*Hero*/
