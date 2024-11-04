@@ -2,39 +2,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+   
 }
 body {
-    font-family: "Lato" ,sans-serif;
+    font-family: "Poppins" ,sans-serif;
     margin: 0;
     padding: 0;
 }
 :root {
-    --primary-colour: #F7EBE8;
-    --dark-colour: #666A86;
-    --light-colour: #fffaff;
-    --black-colour: #000000;
-    --green-text-colour: #B5EF8A; 
+    --main-background-colour: #183446;
+    --light-color: #FFFAFA;
+    --gray-colour: #696969;
 }
 
 
 /*Utilities*/
-/*Backgrounds*/
-.main-background {
-    background-color: var(--primary-colour);
-    color: #000000;
-}
-.alternate-main-background {
-    background-color: var(--light-colour);
-    color: var(--black-colour);
-}
-.darker-background {
-    background-color: var(--dark-colour);
-    color: var(--primary-colour);
-}
-.black-background {
-    background-color: var(--black-colour);
-    color: var(--green-text-colour);
-}
+
 
 /*Text*/
 /*Mobile font size*/
@@ -69,6 +52,7 @@ body {
         font-weight: 600;
        
     }
+
 }
 
 /*Buttons*/
@@ -80,18 +64,82 @@ body {
     margin: auto;
 }
 
+/*Buttons*/
+.blue-button {
+    padding: 5px 15px;
+    background-color: #00A6ED;
+    color: var(--main-background-colour);
+    border-radius: 15px;
+    width: fit-content;
+    border: none;
+    font-weight: 700;
+
+}
+
 
 
 /*Header*/
+header {
+    background-color: var(--light-color);
+    color: var(--main-background-colour);
+}
 header .container {
+    
     display: flex;
     align-items: center;
     justify-content:space-between;
-    padding: 10px 15px;
+    padding: 20px 15px;
+    
+    
 }
 header .container a {
     text-decoration: none;
-    color: #000000;
+    color: var(--light-colour);
+    font-weight: 800;
 }
 
+
 /*Hero*/
+.hero {
+    background-color: var(--main-background-colour);
+}
+.hero .container .content {
+    text-align: center;
+    color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.hero .container .content .get-started {
+    align-self: center;
+}
+
+/*What we do page*/
+.what-we-do {
+    background-color: var(--light-color);
+}
+.what-we-do .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+}
+.what-we-do .container .small-header {
+    color: var(--gray-colour);
+
+}
+.what-we-do .container .header {
+    font-weight: 800;
+
+}
+.what-we-do .container .main-content {
+    color: var(--gray-colour);
+    width: 85%;
+    padding-top: 10px;
+}
+
+
+
