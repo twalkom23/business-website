@@ -13,6 +13,7 @@ body {
     --main-background-colour: #183446;
     --light-color: #FFFAFA;
     --gray-colour: #696969;
+    --light-gray: #E5E5E5;
 }
 
 
@@ -105,6 +106,41 @@ header .container a {
     color: var(--light-colour);
     font-weight: 800;
 }
+header .container .hamburger {
+    cursor: pointer;
+}
+
+.flip {
+    transform: rotate(90deg);
+}
+
+/*Drop Down Menu*/
+.drop-down-menu {
+    position: absolute;
+    z-index: 100;
+    background-color: var(--light-color);
+    width: 100%;
+    color: var(--main-background-colour);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    max-height: 0;
+ 
+}
+.drop-down-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.show {
+    max-height: 200px;
+    opacity: 1;
+}
 
 
 /*Hero*/
@@ -186,6 +222,7 @@ header .container a {
 }
 .info-cards .container button {
     align-self: center;
+    color: var(--light-color);
 }
 
 /*Comp Image*/
@@ -241,6 +278,144 @@ header .container a {
     flex-direction: column;
     gap: 8px;
 }
+.what-we-offer .container button {
+    color: var(--light-color);
+}
+
+/*Middle Image*/
+.middle-image {
+    background-color: var(--main-background-colour);
+    padding: 25px 5px;
+}
+.middle-image .container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+/*Pricing Section*/
+.pricing {
+    background-color: var(--light-color);
+    padding-top: 40px;
+}
+.pricing .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.pricing .container .pricing-header {
+    text-align: center;
+    color: var(--main-background-colour);
+}
+.pricing .container .lump-sum {
+    background-color: var(--light-gray);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.pricing .container .lump-sum .cost {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.pricing .container .lump-sum .cost button {
+    color: var(--light-gray);
+}
+.pricing .container .lump-sum p {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pricing .container .monthly {
+    background-color: var(--main-background-colour);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--light-color);
+}
+.pricing .container .monthly p {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pricing .container .monthly .cost {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fa-check {
+    color: green;
+    font-size: 14px;
+}
+.fa-xmark {
+    color: red;
+    font-size: 14px;
+}
+
+
+/*Footer*/
+footer {
+    padding-top: 25px;
+    margin-top: 25px;
+    background-color: var(--main-background-colour);
+    color: var(--light-color);
+}
+
+footer .container .write-up {
+    width: 90%;
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+footer .container .quick-links {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: var(--light-color) 1px solid;
+    border-bottom: var(--light-color) 1px solid;
+}
+footer .container .quick-links .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer .container .quick-links .links a {
+    text-decoration: none;
+    color: var(--light-color);
+    font-size: 14px;
+}
+footer .container .contact-info {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: var(--light-color) 1px solid;
+}
+footer .container .contact-info ul {
+    list-style-type: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 5px;
+}
+footer .container .contact-info ul li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+footer .container .copyright {
+    padding-top: 25px;
+    font-size: 14px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+
 
 
 
