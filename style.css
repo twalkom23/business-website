@@ -55,7 +55,7 @@ body {
 
 }
 
-/*Buttons*/
+
 
 
 /*Containers*/
@@ -73,7 +73,15 @@ body {
     width: fit-content;
     border: none;
     font-weight: 700;
-
+}
+.dark-button {
+    padding: 5px 15px;
+    background-color: var(--main-background-colour);
+    color: var(--light-color);
+    border-radius: 15px;
+    width: fit-content;
+    border: none;
+    font-weight: 700;
 }
 
 
@@ -140,6 +148,100 @@ header .container a {
     width: 85%;
     padding-top: 10px;
 }
+
+/*Info Cards*/
+.info-cards {
+    background-color: var(--light-color);
+}
+.info-cards .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 0;
+}
+.info-cards .container .card {
+    background-color: #E5E5E5;
+    padding: 15px 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info-cards .container .card i {
+    background-color: var(--main-background-colour);
+    color: var(--light-color);
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    width: fit-content;
+    
+}
+.info-cards .container .card a {
+    text-decoration: none;
+    color: var(--main-background-colour);
+    font-weight: bolder;
+}
+.info-cards .container .card h2 {
+    color: var(--main-background-colour);
+}
+.info-cards .container button {
+    align-self: center;
+}
+
+/*Comp Image*/
+.comp-image {
+    background-color: var(--main-background-colour);
+}
+.comp-image .container img {
+    width: 100%;
+    border-radius: 15px;
+}
+.comp-image {
+    padding: 20px 0;
+}
+
+/*What we offer*/
+.what-we-offer {
+    background-color: var(--light-color);
+}
+.what-we-offer .container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.what-we-offer .container .main-header-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.what-we-offer .container .main-header-area p {
+    color: var(--gray-colour);
+    font-size: smaller;
+}
+.what-we-offer .container .tick-offer-area {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.what-we-offer .container .tick-offer-area .offer h4 {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.fa-circle-check {
+    color: #00A6ED;
+}
+.what-we-offer .container .tick-offer-area .offer p {
+    color: var(--gray-colour);
+    width: 80%;
+}
+.what-we-offer .container .tick-offer-area .offer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 
 
 
