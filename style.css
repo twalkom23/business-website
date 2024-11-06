@@ -25,7 +25,7 @@ body {
 @media (max-width: 480px) {
     .text-small {
         font-size: 0.75rem;
-        line-height: 1.4;
+        line-height: 1.7;
         font-weight: normal;
        
     }
@@ -74,6 +74,7 @@ body {
     width: fit-content;
     border: none;
     font-weight: 700;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
 }
 .dark-button {
     padding: 5px 15px;
@@ -83,6 +84,7 @@ body {
     width: fit-content;
     border: none;
     font-weight: 700;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
 }
 
 
@@ -136,6 +138,10 @@ header .container .hamburger {
     padding: 10px 0;
     font-size: 20px;
     font-weight: bold;
+}
+.drop-down-menu ul a {
+    text-decoration: none;
+    color: var(--main-background-colour);
 }
 .show {
     max-height: 200px;
@@ -297,7 +303,7 @@ header .container .hamburger {
 /*Pricing Section*/
 .pricing {
     background-color: var(--light-color);
-    padding-top: 40px;
+    padding: 40px 0;
 }
 .pricing .container {
     display: flex;
@@ -364,7 +370,6 @@ header .container .hamburger {
 /*Footer*/
 footer {
     padding-top: 25px;
-    margin-top: 25px;
     background-color: var(--main-background-colour);
     color: var(--light-color);
 }
@@ -414,6 +419,61 @@ footer .container .copyright {
     padding-bottom: 25px;
     text-align: center;
 }
+
+/*About Us Page*/
+/*about us*/
+.about-us {
+    background-color: var(--light-color);
+    padding: 20px 0;
+}
+.about-us .container {
+    background-color: var(--light-gray);
+    padding: 20px 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.about-us .container h1 {
+    color: var(--main-background-colour);
+    text-align: center;
+}
+.about-us .container p {
+    font-size: 14px;
+    color: var(--gray-colour);
+}
+
+/*Our process*/
+.our-process{
+    background-color: var(--main-background-colour);
+    padding: 20px 0;
+}
+.our-process .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.our-process .container .top-description {
+    text-align: center;
+    color: var(--light-color);
+}
+.our-process .container .top-description .op {
+    color: var(--light-gray);
+}
+.our-process .container .process-cards {
+    background-color: var(--light-gray);
+    padding: 25px 25px;
+    border-radius: 15px;
+}
+.our-process .container .process-cards .step {
+    padding-bottom: 30px;
+    color: green;
+}
+.our-process .container .process-cards p:nth-of-type(2) {
+    color: var(--gray-colour);
+    font-size: 14px;
+}
+
 
 
 
