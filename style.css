@@ -16,6 +16,10 @@ body {
     --light-gray: #E5E5E5;
 }
 
+a { 
+    text-decoration: none;
+}
+
 
 /*Utilities*/
 
@@ -442,6 +446,10 @@ footer .container .copyright {
     font-size: 14px;
     color: var(--gray-colour);
 }
+.about-us .container button {
+    color: var(--light-gray);
+    margin-top: 20px;
+}
 
 /*Our process*/
 .our-process{
@@ -473,6 +481,105 @@ footer .container .copyright {
     color: var(--gray-colour);
     font-size: 14px;
 }
+
+/*Contact Us Page*/
+.contact-information {
+    padding: 20px 0;
+    background-color: var(--light-color);
+}
+.contact-information .container .write-up h1 {
+    text-align: center;
+    font-size: 30px;
+    color: var(--main-background-colour);
+    padding-bottom: 50px;
+}
+.contact-information .container .write-up h3 {
+    font-size: 25px;
+    color: var(--gray-colour);
+}
+.contact-information .container .write-up p {
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+.contact-information .container .contact-info-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 7fr;
+    gap: 10px;
+   
+}
+
+.contact-information .container .contact-info-section .icon-phone {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    align-self: center;
+}
+.contact-information .container .contact-info-section .icon-email {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    align-self: center;
+}
+.contact-information .container .contact-info-section .icon-location {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    align-self: center;
+}
+
+.contact-information .container .contact-info-section .phone-num {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    align-self: center;
+    color: black;
+}
+.contact-information .container .contact-info-section .email-add {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    align-self: center;
+}
+.contact-information .container .contact-info-section .location {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    align-self: center;
+}
+
+/*Contact Form*/
+.contact-form .container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--light-gray);
+    padding: 30px 15px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.contact-form .container div {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form .container div input {
+    width: 170px;
+    padding-left: 5px;
+}
+.contact-form .container div textarea {
+    width: 170px;
+    padding-left: 5px;
+    
+}
+.contact-form .container h3 {
+    color: var(--main-background-colour);
+    align-self: center;
+}
+.contact-form .container button {
+    align-self: center;
+}
+
+.contact-form div p {
+    color: red;
+}
+
+
+
+
 
 
 

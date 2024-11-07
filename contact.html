@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="myScript.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>PureWeb Contact</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <div class="logo text-x-large">
+                    PureWeb
+                </div>
+            </a>
+            <div class="hamburger text-x-large">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="drop-down-menu">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+            <a href="#"><li>Pricing</li></a>
+            <a href="book.html"><li>Book</li></a>
+        </ul>
+    </section>
+
+
+   <section class="contact-information">
+    <div class="container">
+        <div class="write-up">
+        <h1>Contact Us</h1>
+        <h3>Contact</h3>
+        <p>Send through an email if you have any questions or queries, we will aim to respond to you within 
+            24 hours. Or give us a call if you want to speak to someone right away, if we are unable to answer
+            we will call you back soon. <br>
+            Alternatively fill out our form below and we will call you!
+        </p>
+        </div>
+        <div class="contact-info-section">
+            <div class="icon-phone">
+                <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="icon-email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="icon-location">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <a href="tel:0475932625"><p class="phone-num">0475 932 625</p></a>
+            <p class="email-add">tim@pureweb.com.au</p>
+            <p class="location">Servicing all of Australia</p>
+            
+       </div>
+    </div>
+    </div>
+   </section>
+
+  
+   <form class="contact-form" action="https://api.web3forms.com/submit" method="post">
+    <div class="container">
+        <h3 class="text-x-large">Book a call back</h3>
+
+        <input type="hidden" name="access_key" value="5b1a312c-399e-4bc7-b6e6-ae1c62d0cd76">
+
+        <!--Name-->
+        <div class="name-form">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        </div>
+
+        <!--Email-->
+        <div class="email-form">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email">
+        </div>
+
+        <!--Phone-->
+        <div class="phone-form">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+        </div>
+
+        <!--Message-->
+        <div class="message-form">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6"></textarea>
+        </div>
+
+        <button  class="dark-button text-large" type="submit">Submit</button>
+    </div>
+   </form>
+
+
+    <footer>
+        <div class="container">
+            <h3>Put Logo Here</h3>
+            <p class="write-up">We believe every small business deserves a great website. A well-designed website not only builds credibility but also helps you reach a wider audience. Let us build you something incredible.</p>
+
+            <div class="quick-links">
+                <h3>QUICK LINKS</h3>
+                <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="book.html">Book</a>
+                <a href="contact.html">Contact</a>
+                <a href="#">Pricing</a>
+                </div>
+            </div>
+
+            <div class="contact-info">
+                <h3>CONTACT INFORMATION</h3>
+                <ul>
+                    <li><i class="fa-solid fa-clock"></i> 8am - 6pm</li>
+                    <li><i class="fa-solid fa-phone"></i> 0475 932 625</li>
+                    <li><i class="fa-solid fa-envelope"></i> tim@pureweb.com.au</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Adelaide, South Australia</li>
+                </ul>
+            </div>
+            
+            <div class="copyright">
+                <p><i class="fa-regular fa-copyright"></i> Copyright 2024 PureWeb Digital</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
