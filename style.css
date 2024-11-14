@@ -882,6 +882,13 @@ footer .container .copyright {
     text-align: center;
 }
 
+.clickable-number {
+    color: inherit;
+    text-decoration: none;
+    background: none;
+    outline: none;
+}
+
 
 /*About Us Page*/
 /*about us*/

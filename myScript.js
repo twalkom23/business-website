@@ -12,7 +12,7 @@ let button = document.querySelectorAll('.button-to-booking');
 
 button.forEach(button => {
     button.addEventListener('click', (event) => {
-        window.location.href = 'contact.html';
+        window.location.href = '/contact';
     })
 })
 
