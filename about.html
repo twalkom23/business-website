@@ -6,34 +6,43 @@
     <link rel="stylesheet" href="style.css">
     <script src="myScript.js" defer></script>
 
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>PureWeb About</title>
+    <title>FrankWeb About</title>
 </head>
 <body>
     <header>
         <div class="container">
             <a href="index.html">
-                <div class="logo text-x-large">
-                    PureWeb
+                <div class="logo">
+                    <h3 class="text-x-large"><i class="fa-solid fa-code"></i> FrankWeb</h3>
                 </div>
             </a>
             <div class="hamburger text-x-large">
                 <i class="fas fa-bars"></i>
             </div>
+            <div class="menu ">
+                <ul class="text-small">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <a href="pricing.html"><li>Pricing</li></a>
+                </ul>
+            </div>
         </div>
     </header>
 
-    <section class="drop-down-menu">
-        <ul>
+    <section class="drop-down-menu hide">
+        <ul class="text-regular">
             <a href="index.html"><li>Home</li></a>
             <a href="about.html"><li>About</li></a>
             <a href="contact.html"><li>Contact</li></a>
-            <a href="#"><li>Pricing</li></a>
-            <a href="book.html"><li>Book</li></a>
+            <a href="pricing.html"><li>Pricing</li></a>
         </ul>
     </section>
 
@@ -41,15 +50,15 @@
     <section class="about-us">
         <div class="container">
             <h1 class="text-xx-large">About Us</h1>
-            <h3>PureWeb Digital: Your Partner in Growth</h3>
-            <p class="text-regular">
-                At PureWeb Digital, we specialize in crafting mobile-first, responsive websites designed to captivate your audience and drive business growth. Located in Adelaide, we focus on helping small to medium-sized businesses establish a strong online presence with fast, user-friendly websites that convert visitors into loyal customers.
+            <h3>FrankWeb: Your Partner in Growth</h3>
+            <p class="text-small">
+                At FrankWeb, we specialize in crafting mobile-first, responsive websites designed to captivate your audience and drive business growth. Located in Adelaide, we focus on helping small to medium-sized businesses establish a strong online presence with fast, user-friendly websites that convert visitors into loyal customers.
                 <br><br>
                 We believe that a website shouldn't be a one-time investment with a hefty price tag. Instead of spending thousands upfront, our clients benefit from an affordable monthly plan. This not only covers the creation of a stunning website but also ensures ongoing support and maintenance. With us, you get more than just a website—you gain a dedicated partner who keeps your site running smoothly and efficiently, so you can focus on growing your business.
                 <br><br>
                 Let PureWeb Digital be your trusted web development partner, committed to delivering results and helping your business thrive in the digital age.
             </p>
-            <button class="dark-button text-large">Book Today</button>
+            <button class="dark-button text-large button-to-booking">Book Today</button>
         </div>
     </section>
 
@@ -66,37 +75,32 @@
                     Once you give us the green light, we’ll move into the development phase. Our streamlined process ensures your website is ready to go live within just 14 days, from start to finish.    
                 </p>
             </div>
+            <div class="cards">
             <div class="process-cards step-one">
                 <p class="step">STEP 1</p>
                 <h3>INFORMATION ON YOUR BUSINESS</h3>
-                <p>We will send you an email with questions about your business, what you want the website to 
-                    do for your business etc. From here we will start designing your site based on this information.
+                <p class="text-x-small">We’ll send you an email with questions about your business and what you want your website to achieve. Based on your responses, we’ll begin designing your site.
                 </p>
             </div>
             <div class="process-cards design-approval">
                 <p class="step">STEP 2</p>
                 <h3>DESIGN APPROVAL</h3>
-                <p>Once designed we will send you a copy of the design for you to look over and make 
-                    any changes that you want to make. We will continue this until you are 100% happy 
-                    with the design.
+                <p class="text-x-small">Once the design is complete, we’ll send you a copy for review. You can request any changes, and we’ll keep refining it until you’re 100% happy with the design.
                 </p>
             </div>
             <div class="process-cards development">
                 <p class="step">STEP 3</p>
                 <h3>DEVELOPMENT</h3>
-                <p>Once you are happy with the design, we will start coding the site out. Once complete
-                    we will send you a link to the site to review. Once you are happy we will launch the site
-                    and it will go live.
+                <p class="text-x-small">Once you're happy with the design, we’ll begin coding the site. After completion, we’ll send you a link to review. Once you approve, we’ll launch the site and make it live.
                 </p>
             </div>
             <div class="process-cards support">
                 <p class="step">STEP 4</p>
                 <h3>SUPPORT</h3>
-                <p>If you have gone with the monthly option then every month we will look over your site and 
-                    make sure everything is working and performing optimally. We will also be available 24/7 via
-                    email for any updates or questions you have about your website.
+                <p class="text-x-small">If you’ve chosen the monthly option, we’ll review your site every month to ensure everything is working and performing optimally. We’re also available 24/7 via email for any updates or questions you may have about your website.
                 </p>
             </div>
+        </div>
         </div>
     </section>
 
@@ -106,34 +110,38 @@
 
     <footer>
         <div class="container">
-            <h3>Put Logo Here</h3>
-            <p class="write-up">We believe every small business deserves a great website. A well-designed website not only builds credibility but also helps you reach a wider audience. Let us build you something incredible.</p>
+            
+                <div class="logo">
+                    <h3 class="text-x-large"><i class="fa-solid fa-code"></i> FrankWeb</h3>
+                </div>
+           
+            <p class="write-up text-x-small">We believe every small business deserves a great website. A well-designed site not only builds credibility but also helps you reach a broader audience. Let us create something incredible for you.</p>
 
             <div class="quick-links">
                 <h3>QUICK LINKS</h3>
-                <div class="links">
+                <div class="links text-x-small">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
-                <a href="book.html">Book</a>
                 <a href="contact.html">Contact</a>
-                <a href="#">Pricing</a>
+                <a href="pricing.html">Pricing</a>
                 </div>
             </div>
 
             <div class="contact-info">
                 <h3>CONTACT INFORMATION</h3>
-                <ul>
+                <ul class="text-x-small">
                     <li><i class="fa-solid fa-clock"></i> 8am - 6pm</li>
                     <li><i class="fa-solid fa-phone"></i> 0475 932 625</li>
-                    <li><i class="fa-solid fa-envelope"></i> tim@pureweb.com.au</li>
+                    <li><i class="fa-solid fa-envelope"></i> tim@frankweb.com.au</li>
                     <li><i class="fa-solid fa-location-dot"></i> Adelaide, South Australia</li>
                 </ul>
             </div>
             
-            <div class="copyright">
-                <p><i class="fa-regular fa-copyright"></i> Copyright 2024 PureWeb Digital</p>
+            <div class="copyright text-x-small">
+                <p><i class="fa-regular fa-copyright"></i> Copyright 2024 FrankWeb Digital</p>
             </div>
         </div>
     </footer>
+
 </body>
 </html>

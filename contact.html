@@ -6,34 +6,43 @@
     <link rel="stylesheet" href="style.css">
     <script src="myScript.js" defer></script>
 
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>PureWeb Contact</title>
+    <title>FrankWeb Contact</title>
 </head>
 <body>
     <header>
         <div class="container">
             <a href="index.html">
-                <div class="logo text-x-large">
-                    PureWeb
+                <div class="logo">
+                    <h3 class="text-x-large"><i class="fa-solid fa-code"></i> FrankWeb</h3>
                 </div>
             </a>
             <div class="hamburger text-x-large">
                 <i class="fas fa-bars"></i>
             </div>
+            <div class="menu ">
+                <ul class="text-small">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <a href="pricing.html"><li>Pricing</li></a>
+                </ul>
+            </div>
         </div>
     </header>
 
-    <section class="drop-down-menu">
-        <ul>
+    <section class="drop-down-menu hide">
+        <ul class="text-regular">
             <a href="index.html"><li>Home</li></a>
             <a href="about.html"><li>About</li></a>
             <a href="contact.html"><li>Contact</li></a>
-            <a href="#"><li>Pricing</li></a>
-            <a href="book.html"><li>Book</li></a>
+            <a href="pricing.html"><li>Pricing</li></a>
         </ul>
     </section>
 
@@ -41,15 +50,13 @@
    <section class="contact-information">
     <div class="container">
         <div class="write-up">
-        <h1>Contact Us</h1>
-        <h3>Contact</h3>
-        <p>Send through an email if you have any questions or queries, we will aim to respond to you within 
-            24 hours. Or give us a call if you want to speak to someone right away, if we are unable to answer
-            we will call you back soon. <br>
-            Alternatively fill out our form below and we will call you!
+        <h1 class="text-x-large">Contact Us</h1>
+        <h3 class="text-large">Contact</h3>
+        <p class="text-small">Send us an email if you have any questions or queries, and we’ll aim to respond within 24 hours. If you'd prefer to speak with someone right away, give us a call. If we're unable to answer, we’ll return your call as soon as possible.
+            <br>Alternatively, fill out the form below, and we’ll give you a call!
         </p>
         </div>
-        <div class="contact-info-section">
+        <div class="contact-info-section text-small">
             <div class="icon-phone">
                 <i class="fa-solid fa-phone-volume"></i>
             </div>
@@ -59,9 +66,9 @@
             <div class="icon-location">
                 <i class="fa-solid fa-location-dot"></i>
             </div>
-            <a href="tel:0475932625"><p class="phone-num">0475 932 625</p></a>
-            <p class="email-add">tim@pureweb.com.au</p>
-            <p class="location">Servicing all of Australia</p>
+            <a href="tel:0475932625"><p class="phone-num text-small">0475 932 625</p></a>
+            <p class="email-add text-small">tim@pureweb.com.au</p>
+            <p class="location text-small">Servicing all of Australia</p>
             
        </div>
     </div>
@@ -104,36 +111,40 @@
    </form>
 
 
-    <footer>
-        <div class="container">
-            <h3>Put Logo Here</h3>
-            <p class="write-up">We believe every small business deserves a great website. A well-designed website not only builds credibility but also helps you reach a wider audience. Let us build you something incredible.</p>
-
-            <div class="quick-links">
-                <h3>QUICK LINKS</h3>
-                <div class="links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="book.html">Book</a>
-                <a href="contact.html">Contact</a>
-                <a href="#">Pricing</a>
-                </div>
+   <footer>
+    <div class="container">
+        
+            <div class="logo">
+                <h3 class="text-x-large"><i class="fa-solid fa-code"></i> FrankWeb</h3>
             </div>
+       
+        <p class="write-up text-x-small">We believe every small business deserves a great website. A well-designed site not only builds credibility but also helps you reach a broader audience. Let us create something incredible for you.</p>
 
-            <div class="contact-info">
-                <h3>CONTACT INFORMATION</h3>
-                <ul>
-                    <li><i class="fa-solid fa-clock"></i> 8am - 6pm</li>
-                    <li><i class="fa-solid fa-phone"></i> 0475 932 625</li>
-                    <li><i class="fa-solid fa-envelope"></i> tim@pureweb.com.au</li>
-                    <li><i class="fa-solid fa-location-dot"></i> Adelaide, South Australia</li>
-                </ul>
-            </div>
-            
-            <div class="copyright">
-                <p><i class="fa-regular fa-copyright"></i> Copyright 2024 PureWeb Digital</p>
+        <div class="quick-links">
+            <h3>QUICK LINKS</h3>
+            <div class="links text-x-small">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="pricing.html">Pricing</a>
             </div>
         </div>
-    </footer>
+
+        <div class="contact-info">
+            <h3>CONTACT INFORMATION</h3>
+            <ul class="text-x-small">
+                <li><i class="fa-solid fa-clock"></i> 8am - 6pm</li>
+                <li><i class="fa-solid fa-phone"></i> 0475 932 625</li>
+                <li><i class="fa-solid fa-envelope"></i> tim@frankweb.com.au</li>
+                <li><i class="fa-solid fa-location-dot"></i> Adelaide, South Australia</li>
+            </ul>
+        </div>
+        
+        <div class="copyright text-x-small">
+            <p><i class="fa-regular fa-copyright"></i> Copyright 2024 FrankWeb Digital</p>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>

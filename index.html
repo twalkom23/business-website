@@ -6,35 +6,44 @@
     <link rel="stylesheet" href="style.css">
     <script src="myScript.js" defer></script>
 
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>PureWeb Digital</title>
+    <title>FrankWeb Digital</title>
 </head>
 <body>
     
     <header>
         <div class="container">
             <a href="index.html">
-                <div class="logo text-x-large">
-                    PureWeb
+                <div class="logo">
+                    <h3 class="text-x-large"><i class="fa-solid fa-code"></i> FrankWeb</h3>
                 </div>
             </a>
             <div class="hamburger text-x-large">
                 <i class="fas fa-bars"></i>
             </div>
+            <div class="menu ">
+                <ul class="text-small">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <a href="pricing.html"><li>Pricing</li></a>
+                </ul>
+            </div>
         </div>
     </header>
 
-    <section class="drop-down-menu">
-        <ul>
+    <section class="drop-down-menu hide">
+        <ul class="text-regular">
             <a href="index.html"><li>Home</li></a>
             <a href="about.html"><li>About</li></a>
             <a href="contact.html"><li>Contact</li></a>
-            <a href="#"><li>Pricing</li></a>
-            <a href="book.html"><li>Book</li></a>
+            <a href="pricing.html"><li>Pricing</li></a>
         </ul>
     </section>
 
@@ -44,14 +53,12 @@
             <p class="small-description text-small">Custom Web Design + Development + Website Management</p>
             
             <h5 class="larger-content text-x-large">
-                We create custom websites from scratch, 
-                improving website speed, customer retention 
-                and SEO rankings!
+                Building custom websites designed to load faster, captivate customers, and improve your SEO—bringing lasting results from the start."
             </h5>
             <p class="info text-small">No page builders or wordpress, offering hand coded custom websites, starting at $299 per month,
                 we look after your website so you no longer have to think about it!
             </p>
-            <button class="get-started blue-button text-large">GET STARTED</button>
+            <button class="get-started blue-button text-large button-to-booking">GET STARTED</button>
         </div>
         </div>
     </section>
@@ -63,16 +70,12 @@
                 NEVER WORRY ABOUT TOUCHING YOUR WEBSITE AGAIN
             </h3>
             <p class="main-content text-small">
-                At PureWeb Digital, we specialise in small businesss web development in Australia.
-                All of our websites are hand coded, this will ensure the best possible performance and will 
-                keep Google happy, which helps bring in more customers to your website and more revenue to
-                your business. We also do a monthly review of your site to make sure it is performing optimally
-                and meeting all of googles standards. As well as making any changes to your site as you need them.
+                At FrankWeb, we specialize in affordable, custom web development for small businesses across Australia with $0 upfront costs. Every website is hand-coded for the best possible performance, helping you rank higher on Google and attract more customers to grow your business. We also provide monthly performance reviews to ensure your site meets Google’s latest standards and stays optimized, along with any updates you need—keeping your website working hard for you.
             </p>
         </div>
     </section>
 
-    <section class="info-cards">
+    <section class="info-cards"> <!--For pages smaller then 767px-->
         <div class="container">
             <!--Card 1 - Mobile First Design-->
             <div class="card mobile-first">
@@ -81,63 +84,105 @@
                     Mobile First Design
                 </h2>
                 <p>
-                    More then half of the people visiting your website will be doing it
-                    through their phones, for this reason we start by making your site for mobile.
+                    More than half of your website visitors will view it on their phones, so we design your site with a mobile-first approach. This ensures it’s fully optimized for a seamless mobile experience, keeping your visitors engaged wherever they are.
                 </p>
-                <a href="book.html">Start Now</a>
+                <a href="contact.html">Start Now</a>
             </div>
             <!--Card 2 - Fully responsive design-->
             <div class="card fully-responsive">
                 <i class="fa-solid fa-laptop-code"></i>
                 <h2>Fully Responsive</h2>
-                <p>Our websites are fully responsive and will look good on any
-                    sized screen, including all mobiles, tablets and desktop sizes. So customers
-                    can access your website from anywhere.
+                <p>Our websites are fully responsive, designed to look great on any screen—whether it's a mobile, tablet, or desktop—so your customers can access your site seamlessly from anywhere.
                 </p>
-                <a href="book.html">Start Now</a>
+                <a href="contact.html">Start Now</a>
             </div>
             <!--Card 3 - Fast page load-->
             <div class="card page-speed">
                 <i class="fa-solid fa-stopwatch"></i>
                 <h2>Fast Load Speed</h2>
                 <p>
-                    You can lose up to 50% of your traffic if your site takes longer then 3 
-                    seconds to load. Our sites load in under 1 second to ensure that no one leaves 
-                    your site.
+                    You can lose up to 50% of your traffic if your site takes longer than 3 seconds to load. Our sites load in under 1 second, ensuring visitors stay on your site.
                 </p>
-                <a href="book.html">Start Now</a>
+                <a href="contact.html">Start Now</a>
             </div>
             <!--Card 4 - SEO Optimised-->
             <div class="card seo-optimised">
                 <i class="fa-brands fa-google"></i>
                 <h2>SEO Optimised</h2>
                 <p>
-                    We add all the little changes to your site to make sure it ranks as 
-                    high as possible on google and keep up to date on this with monthly reviews
-                    of your site to make sure it is ranking as high as possible.
+                    We make all the necessary adjustments to your site to maximize its ranking on Google. Our team conducts monthly reviews to ensure your site continues to rank as high as possible.
                 </p>
-                <a href="book.html">Start Now</a>
+                <a href="contact.html">Start Now</a>
             </div>
-            <button class="blue-button text-large">
+            <button class="blue-button text-large button-to-booking">
                 Call Today
             </button>
         </div>
     </section>
 
-    <section class="comp-image">
+    <section class="info-cards-large"> <!--For pages larger then 767px-->
         <div class="container">
-            <img src="assets/comp-image-mobile.jpg" alt="Web Developer">
+            <!--Card 1 - Mobile First Design-->
+            <div class="card mobile-first">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h2>
+                    Mobile First Design
+                </h2>
+                <p>
+                    More than half of your website visitors will view it on their phones, so we design your site with a mobile-first approach. This ensures it’s fully optimized for a seamless mobile experience, keeping your visitors engaged wherever they are.
+                </p>
+                <a href="contact.html">Start Now</a>
+            </div>
+            <!--Card 2 - Fully responsive design-->
+            <div class="card fully-responsive">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Fully Responsive</h2>
+                <p>Our websites are fully responsive, designed to look great on any screen—whether it's a mobile, tablet, or desktop—so your customers can access your site seamlessly from anywhere.
+                </p>
+                <a href="contact.html">Start Now</a>
+            </div>
+            <!--Card 3 - Fast page load-->
+            <div class="card page-speed">
+                <i class="fa-solid fa-stopwatch"></i>
+                <h2>Fast Load Speed</h2>
+                <p>
+                    You can lose up to 50% of your traffic if your site takes longer than 3 seconds to load. Our sites load in under 1 second, ensuring visitors stay on your site.
+                </p>
+                <a href="contact.html">Start Now</a>
+            </div>
+            <!--Card 4 - SEO Optimised-->
+            <div class="card seo-optimised">
+                <i class="fa-brands fa-google"></i>
+                <h2>SEO Optimised</h2>
+                <p>
+                    We make all the necessary adjustments to your site to maximize its ranking on Google. Our team conducts monthly reviews to ensure your site continues to rank as high as possible.
+                </p>
+                <a href="contact.html">Start Now</a>
+            </div>
+            <button class="blue-button text-large button-to-booking">
+                Call Today
+            </button>
         </div>
     </section>
+
+
+
+    <section class="comp-image">
+        <div class="container">
+            <img class="small-screen-image" src="assets/comp-image-mobile.jpg" alt="Web Developer">
+            <img class="large-screen-image" src="assets/horizontal-comp-image.jpg" alt="web developer">
+        </div>
+    </section>
+
+
 
     <section class="what-we-offer">
         <div class="container">
             <div class="main-header-area">
-                <p>WHAT WE OFFER</p>
+                <p class="text-small">WHAT WE OFFER</p>
                 <h2>WEBSITES AT $0 DOWN AND $299 PER MONTH</h2>
-                <p>We offer $0 down for a standard up to 5 page website. If you need more pages or
-                    complexity we are able to do custom pricing for your site. It is a minimum 10 month contract.
-                    Includes the design, development, hosting, monthly reviews, unlimited edits and 24/7 support.
+                <p class="text-small">
+                    We offer $0 down for a standard website of up to 5 pages. For additional pages or added complexity, we provide custom pricing options. This service includes a minimum 10-month contract covering design, development, hosting, monthly reviews, unlimited edits, and 24/7 support.
                 </p>
             </div>
             <div class="tick-offer-area">
@@ -169,25 +214,23 @@
                 </div>
                 <div class="offer unlimited-changes">
                     <h4><i class="fa-solid fa-circle-check"></i>UNLIMITED CHANGES</h4>
-                    <p class="text-small">If you need something changed, added, removed or anything else we will fix that up for you
-                        at no extra cost.
+                    <p class="text-small">If you need something changed, added, or removed, we’ll take care of it at no extra cost.
                     </p>
                 </div>
                 <div class="offer monthly-reviews">
                     <h4><i class="fa-solid fa-circle-check"></i>MONTHLY REVIEWS</h4>
-                    <p class="text-small">Once a month our team will look over your site to make sure
-                        it is still loading at an optimal speed and that it is making google happy to improve your 
-                        SEO ranking. We will then make any tweaks required to fix this for no extra cost.
+                    <p class="text-small">Once a month, our team will review your site to ensure it’s loading at optimal speed and meeting Google’s standards to improve your SEO ranking. We’ll make any necessary adjustments at no extra cost.
                     </p>
                 </div>
             </div>
-            <button class="book-a-call blue-button text-large">BOOK A CALL</button>
+            <button class="book-a-call blue-button text-regular button-to-booking">BOOK A CALL</button>
         </div>
     </section>
 
     <section class="middle-image">
         <div class="container">
-            <img src="assets/mobile-mid-home.jpg" alt="web developer">
+            <img class="small-screen-image" src="assets/mobile-mid-home.jpg" alt="web developer">
+            <img class="large-screen-image" src="assets/horzontal-other-image.jpg" alt="web developer">
         </div>
     </section>
 
@@ -201,31 +244,31 @@
             <!--Lump sum-->
             <div class="lump-sum">
                 <h4 class="text-x-large">LUMP SUM</h4>
-                <p>- Custom Design and Development<i class="fa-solid fa-check"></i></p>
-                <p>- $100 to make any edits after the first month<i class="fa-solid fa-check"></i></p>
-                <p>- $25 per month hosting<i class="fa-solid fa-check"></i></p>
-                <p>- Up to 5 pages, additional costs for more pages<i class="fa-solid fa-check"></i></p>
-                <p>- 24/7 Support<i class="fa-solid fa-xmark"></i></p>
-                <p>- Monthly site reviews by our team <i class="fa-solid fa-xmark"></i></p>
+                <p class="text-x-small">Custom Design and Development<i class="fa-solid fa-check"></i></p>
+                <p class="text-x-small">$100 to make any edits after the first month<i class="fa-solid fa-check"></i></p>
+                <p class="text-x-small">$25 per month hosting<i class="fa-solid fa-check"></i></p>
+                <p class="text-x-small">Up to 5 pages, additional costs for more pages<i class="fa-solid fa-check"></i></p>
+                <p class="text-x-small">24/7 Support<i class="fa-solid fa-xmark"></i></p>
+                <p class="text-x-small">Monthly site reviews by our team <i class="fa-solid fa-xmark"></i></p>
                 <div class="cost">
                     <h2 class="text-xx-large">$3000<span class="text-small">+$25/month Hosting</span></h2>
-                    <button class="dark-button text-large">GET STARTED</button>
+                    <button class="dark-button text-large button-to-booking">GET STARTED</button>
                 </div>
             </div>
 
             <!--Monthly Costs-->
             <div class="monthly">
                 <h4 class="text-x-large">Monthly</h4>
-                <p>Custom Design and Development <i class="fa-solid fa-check"></i></p>
-                <p>Up to 5 pages, additional costs for more pages<i class="fa-solid fa-check"></i></p>
-                <p>Includes Hosting<i class="fa-solid fa-check"></i></p>
-                <p>Unlimited Changes<i class="fa-solid fa-check"></i></p>
-                <p>Monthly Reviews<i class="fa-solid fa-check"></i></p>
-                <p>24/7 Support<i class="fa-solid fa-check"></i></p>
+                <p class="text-x-small">Custom Design and Development <i class="fa-solid fa-check"></i></p>
+                <p class="text-x-small">Up to 5 pages, additional costs for more pages<i class="fa-solid fa-check"></i></p>
+                <p class="text-x-small">Includes Hosting<i class="fa-solid fa-check"></i></p>
+                <p class="text-x-small">Unlimited Changes<i class="fa-solid fa-check"></i></p>
+                <p class="text-x-small">Monthly Reviews<i class="fa-solid fa-check"></i></p>
+                <p class="text-x-small">24/7 Support<i class="fa-solid fa-check"></i></p>
                 <div class="cost">
                     <h2 class="text-xx-large">$299 <span class="text-small">Per Month</span>
                     </h2>
-                    <button class="blue-button text-large">GET STARTED</button>
+                    <button class="blue-button text-large button-to-booking">GET STARTED</button>
                 </div>
             </div>
         </div>
@@ -233,32 +276,35 @@
 
     <footer>
         <div class="container">
-            <h3>Put Logo Here</h3>
-            <p class="write-up">We believe every small business deserves a great website. A well-designed website not only builds credibility but also helps you reach a wider audience. Let us build you something incredible.</p>
+            
+                <div class="logo">
+                    <h3 class="text-x-large"><i class="fa-solid fa-code"></i> FrankWeb</h3>
+                </div>
+           
+            <p class="write-up text-x-small">We believe every small business deserves a great website. A well-designed site not only builds credibility but also helps you reach a broader audience. Let us create something incredible for you.</p>
 
             <div class="quick-links">
                 <h3>QUICK LINKS</h3>
-                <div class="links">
+                <div class="links text-x-small">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
-                <a href="book.html">Book</a>
                 <a href="contact.html">Contact</a>
-                <a href="#">Pricing</a>
+                <a href="pricing.html">Pricing</a>
                 </div>
             </div>
 
             <div class="contact-info">
                 <h3>CONTACT INFORMATION</h3>
-                <ul>
+                <ul class="text-x-small">
                     <li><i class="fa-solid fa-clock"></i> 8am - 6pm</li>
                     <li><i class="fa-solid fa-phone"></i> 0475 932 625</li>
-                    <li><i class="fa-solid fa-envelope"></i> tim@pureweb.com.au</li>
+                    <li><i class="fa-solid fa-envelope"></i> tim@frankweb.com.au</li>
                     <li><i class="fa-solid fa-location-dot"></i> Adelaide, South Australia</li>
                 </ul>
             </div>
             
-            <div class="copyright">
-                <p><i class="fa-regular fa-copyright"></i> Copyright 2024 PureWeb Digital</p>
+            <div class="copyright text-x-small">
+                <p><i class="fa-regular fa-copyright"></i> Copyright 2024 FrankWeb Digital</p>
             </div>
         </div>
     </footer>
